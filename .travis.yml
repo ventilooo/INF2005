@@ -1,3 +1,4 @@
+sudo: required
 language: python
 python:
  - "2.7"
@@ -10,4 +11,4 @@ before_install:
 
 install:
  - pip install html5validator
-
+script: html5validator --root _build/
