@@ -116,3 +116,7 @@ footer {
 	border-bottom: 3px solid transparent;
 	border-top: 3px solid #1e5799;
 }
+
+address {
+	text-align: center;
+}
