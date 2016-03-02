@@ -17,10 +17,6 @@ div.desc {
     text-align: center;
 }
 
-/* menu */
-li:hover ul.menu2 {display: block;}
-
-
 * {
     box-sizing: border-box;
 }
