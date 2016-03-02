@@ -137,3 +137,11 @@ ul.menu2 {
 ul.menu1:hover ul.menu2 {
 	display: block;
 }
+
+/* header */
+header img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	
+}
