@@ -126,16 +126,8 @@ form {
 }
 
 /* menu */
-.menu1 {
-	float:right;
-}
-
-ul.menu2 {
-	display: none;
-	postition: absolute;
-}
-ul.menu1:hover ul.menu2 {
-	display: block;
+ul.menu {
+	float: right;
 }
 
 /* header */
