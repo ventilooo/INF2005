@@ -1,0 +1,9 @@
+img {
+	border: dashed;
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#plan {
+	float: right;
+}
