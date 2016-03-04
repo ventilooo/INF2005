@@ -135,11 +135,10 @@ header img {
 	float: left;
 	width: 70px;
 	height: 70px;
-	
 }
 /*Link hôtel*/
 #link {
-    font-family: fantasy;
-    font-size: x-large;
-    text-align: center;
+	font-family: fantasy;
+	font-size: x-large;
+	text-align: center;
 }
