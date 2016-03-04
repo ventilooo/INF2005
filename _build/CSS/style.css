@@ -137,3 +137,9 @@ header img {
 	height: 70px;
 	
 }
+/*Link hôtel*/
+#link {
+    font-family: fantasy;
+    font-size: x-large;
+    text-align: center;
+}
