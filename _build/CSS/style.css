@@ -126,7 +126,7 @@ form {
 }
 
 /* menu */
-ul.menu {
+li.menu {
 	float: right;
 }
 
