@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Stades</title>
-		<meta http-equiv="refresh" content="12; url=../index.html" />
 		<meta name="description" content="">
 		<meta name="author" content="ventilooo">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/style.css"/>
+		<link rel="stylesheet" href="../CSS/stades_style.css"/>
 	</head>
 	<body>
 		<div class="ribbon">
@@ -45,14 +45,27 @@
 		<div class="conteneur">
 			<div class="bloc">
 				<p class="construction">
-					<img src="i/cours/panneau.gif" alt="Carte" usemap="#carte" />
-					<map name="carte">
-						<area shape="circle" coords="92,19,5" href="./stades/stade1.html" alt="Stade 1" />
-						<area shape="circle" coords="92,19,5" href="./stades/stade2.html" alt="Stade 2" />
-						<area shape="circle" coords="92,19,5" href="./stades/stade3.html" alt="Stade 3" />
-						<area shape="circle" coords="92,19,5" href="./stades/stade4.html" alt="Stade 4" />
-						<area shape="circle" coords="92,19,5" href="./stades/stade5.html" alt="Stade 5" />
-					</map>
+					<img src="../../content/images/carte_ville.jpg" alt="Carte" border="1" width="640" height="340" usemap="#carte">
+					<div id="zones_cliquables">
+						<map name="carte" id="carte">
+							<area shape="circle" coords="100,50,10" href="./stades/stade1.html" alt="Stade 1" />
+							<area shape="circle" coords="125,280,10" href="./stades/stade2.html" alt="Stade 2" />
+							<area shape="circle" coords="92,19,10" href="./stades/stade3.html" alt="Stade 3" />
+							<area shape="circle" coords="354,180,10" href="./stades/stade4.html" alt="Stade 4" />
+							<area shape="circle" coords="420,25,10" href="./stades/stade5.html" alt="Stade 5" />
+						</map>
+					</div>
+					<svg width="640" height="340">
+ 						<circle cx="100" cy="50" r="10" stroke="black" stroke-width="1" fill="none"/>
+ 						<circle cx="125" cy="280" r="10" stroke="black" stroke-width="1" fill="none"/>
+ 						<circle cx="92" cy="19" r="10" stroke="black" stroke-width="1" fill="none"/>
+ 						<circle cx="354" cy="180" r="10" stroke="black" stroke-width="1" fill="none"/>
+ 						<circle cx="420" cy="25" r="10" stroke="black" stroke-width="1" fill="none"/>
+						Désolé, votre navigateur ne supporte pas le svg.
+					</svg>
+					<div class="desc">
+						<em>Plan de la ville. Cliquez sur les cercles afin d'&ecirc;tre redigir&eacute; vers la page du stade cibl&eacute;.</em>
+					</div>
 				</p>
 			</div>
 		</div>

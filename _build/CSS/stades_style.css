@@ -1,0 +1,20 @@
+#carte_ville {
+	position:relative;
+	width:640px;
+	height:340px;
+	background-image: url("../../content/images/carte_ville.jpg");
+}
+
+a.stade1 {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:15px;
+	height:15px;
+	border:1px solid black;
+}
+
+svg {
+	background-image: url("../../content/images/carte_ville.jpg");
+}
