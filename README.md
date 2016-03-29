@@ -1,0 +1,4 @@
+# INF2005
+Projet du cours de programmation web
+
+[![BuildStatus](https://travis-ci.com/ventilooo/INF2005.svg?token=V31cMRT7nQrRHexNKKaP&branch=master)](https://travis-ci.com/ventilooo/INF2005)
