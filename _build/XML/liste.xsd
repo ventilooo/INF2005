@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Definition d'une liste comtié -->
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="liste" type="listeComiteType"/>
+  <xs:complexType name="listeComiteType">
+       <xs:sequence>
+          <xs:element name="personnalite" type="xs:string" minOccurs='1' 
+                                                       maxOccurs='unbounded'/> 
+       </xs:sequence>
+  </xs:complexType>
+</xs:schema>

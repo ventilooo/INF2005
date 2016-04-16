@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="../CSS/comite.css"?>
+<liste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="liste.xsd">
+    <personnalite>
+        <nom>Schaal</nom>
+        <prenom>Olivia</prenom>
+        <domaine>Mentions légales</domaine>
+    </personnalite>
+    <personnalite>
+        <nom>Jouin</nom>
+        <prenom>Lucas</prenom>
+        <domaine>Communication</domaine>
+    </personnalite>
+    <personnalite>
+        <nom>De La Llave</nom>
+        <prenom>Anthony</prenom>
+        <domaine>Développement</domaine>
+    </personnalite>
+    <personnalite>
+        <nom>Szalaï</nom>
+        <prenom>Istvan</prenom>
+        <domaine>Développement</domaine>
+    </personnalite>
+</liste>

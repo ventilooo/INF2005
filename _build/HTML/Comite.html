@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>Français</title>
+		<title>Connexion</title>
 		<meta name="description" content="">
 		<meta name="author" content="ventilooo">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/style.css"/>
+		<xml id="fichierxml" src="comite.xml"></xml>
 	</head>
 	<body>
 		<div class="ribbon">
@@ -14,7 +15,7 @@
 		</div>
 		<header>
 			<a href="../index.html"><img src="../../content/images/logo.png" alt="logo"/></a>
-			<h1>World Cup at Hinoemata</h1>
+			<h1>Connexion</h1>
 		</header>
 		<nav>
 			<ul>
@@ -28,37 +29,41 @@
 					<a class="navbar" href="Nihongo.html">Nihongo</a>
 				</li>
 				<li class="menu">
-					<a href="English.html">Hotels</a>
+					<a href="Hotels.html">Hot&ecirc;ls</a>
 				</li>
 				<li class="menu">
-					<a href="English.html">Stadium</a>
+					<a href="Stades.html">Stades</a>
 				</li>
 				<li class="menu">
-					<a href="English.html">Contact</a>
+					<a href="Contact.html">Contact</a>
 				</li >
 				<li class="menu">
-					<a href="English.html">Connection</a>
+					<a href="Connexion.html">Connexion</a>
 				</li>
 				<li class="menu">
-					<a href="English.html">Historic</a>
+					<a href="Historique.html">Historique</a>
 				</li>
 				<li class="menu">
-					<a href="English.html">Support Committee</a>
+					<a href="Comite.html">Comit&eacute; de soutient</a>
 				</li>
 			</ul>
 		</nav>
 		<div class="conteneur">
 			<div class="bloc">
 				<p class="construction">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/FzeBkx5z4RM" frameborder="0" allowfullscreen></iframe>
-					<br>After the wonderful World Cup in Brazil, live an all new amazing experience in Hinoemata.
-					<br><br>If you want more informations, please continue on the<br><a href="Francais.html"><u>French page</u></a>.
+					<table border="1" datasrc="#fichierxml"> 
+						<tr>
+							<td><span datafld="nom"></span></td> 
+							<td><span datafld="prenom"></span></td>
+							<td><span datafld="domaine"></span></td> 
+						</tr>
+					</table>
 				</p>
 			</div>
 		</div>
 		<footer>
 			<p>
-				Website developped as part of the <a href="http://www.etudier.uqam.ca/cours?sigle=INF2005">INF2005</a> lesson at <a href="http://www.uqam.ca/">UQAM</a>.
+				Site internet d&eacute;velopp&eacute; dans le cadre du cours <a href="http://www.etudier.uqam.ca/cours?sigle=INF2005">INF2005</a> &agrave; l'<a href="http://www.uqam.ca/">UQAM</a>.
 				<br>
 				<br>
 				&copy; Copyright  by <a href="mailto:szalai.istvan@courrier.uqam.ca">ventilooo</a> & <a href="mailto:de_la_llave.anthony@courrier.uqam.ca">adelallave</a>.

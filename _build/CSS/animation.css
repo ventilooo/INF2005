@@ -1,32 +1,52 @@
-div.annime {
-	  -moz-animation-duration: 5s;
-      -webkit-animation-duration: 5s;
-      -moz-animation-name: annime;
-      -webkit-animation-name: annime;
-      -webkit-animation-iteration-count:infinite;
-      -moz-animation-iteration-count:infinite;
-      width:200px;
-      height: 300px;
-      background-color: red;
-      padding: 5px;
-      position: relative;
-    } 
-    @-moz-keyframes annime {
-      from { margin-left:100%;
-        width:100%;
-      }    
-      to {margin-left:0%;
-        width:50px;
-        height:5px;
-         transform: scale(0.1);
-      }
-    }  
+#annime {
+	-moz-animation-duration: 13s;
+	-webkit-animation-duration: 13s;
+	-moz-animation-name: annime;
+	-webkit-animation-name: annime;
+	-webkit-animation-iteration-count:1;
+	-moz-animation-iteration-count:1;
+	-moz-animation-delay : 1s;
+	-webkit-animation-delay: 1s;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	@-moz-keyframes annime {
+		0% {
+			opacity: 0.2;
+			transform:rotate(0deg);
+			width : 0%;
+			heigth : 0%;
+		}    
+		50 % {
+			opacity: 0.6;
+			transform:rotate(180deg);
+			width : 50%;
+			heigth : 50%;
+		}
+		100% {
+			opacity: 1;
+			transform:rotate(360deg);
+			width : 100%;
+			heigth : 100%;
+		}
+	}  
     @-webkit-keyframes annime {
-      from {  margin-left:700px;
-        width:100%;
-      }   
-      to { width:50px;
-       height:5px;
-       transform: scale(0.1);
-      }
-    }
+		0% {
+			opacity: 0.2;
+			transform:rotate(0deg);
+			width : 0%;
+			heigth : 0%;
+		}    
+		50 % {
+			opacity: 0.6;
+			transform:rotate(180deg);
+			width : 50%;
+			heigth : 50%;
+		}
+		100% {
+			opacity: 1;
+			transform:rotate(360deg);
+			width : 100%;
+			heigth : 100%;
+		}
+	} 

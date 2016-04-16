@@ -1,0 +1,15 @@
+liste {
+	width: 500px;
+	left: 150px;
+	position:absolute;
+	background-color: white;
+}
+etudiant{
+	width: 400px;
+	text-align: center;
+	color: blue;
+	font-size: 20pt;
+	background-color:yellow;
+	margin:5px;
+	display: block;
+}
