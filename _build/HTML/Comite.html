@@ -7,7 +7,6 @@
 		<meta name="author" content="ventilooo">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/style.css"/>
-		<xml id="fichierxml" src="comite.xml"></xml>
 	</head>
 	<body>
 		<div class="ribbon">
@@ -51,7 +50,8 @@
 		<div class="conteneur">
 			<div class="bloc">
 				<p class="construction">
-					<table border="1" datasrc="#fichierxml"> 
+					<xml id="fichierxml" src="../XML/comite.xml"></xml>
+					<table border="1" datasrc="#fichierxml" datafld="personnalite"> 
 						<tr>
 							<td><span datafld="nom"></span></td> 
 							<td><span datafld="prenom"></span></td>

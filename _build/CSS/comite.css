@@ -1,15 +1,20 @@
-liste {
-	width: 500px;
+comite {
+	width: 600px;
 	left: 150px;
 	position:absolute;
 	background-color: white;
 }
-etudiant{
-	width: 400px;
+personne {
+	width: 500px;
 	text-align: center;
-	color: blue;
+	color: #0A122A;
 	font-size: 20pt;
-	background-color:yellow;
+	background-color:#F2F2F2;
 	margin:5px;
 	display: block;
+	font-family: "Times New Roman";
+}
+
+domaine {
+	color: #3B0B0B;
 }

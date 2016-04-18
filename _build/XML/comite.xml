@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/css" href="../CSS/comite.css"?>
-<liste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:noNamespaceSchemaLocation="liste.xsd">
-    <personnalite>
-        <nom>Schaal</nom>
-        <prenom>Olivia</prenom>
-        <domaine>Mentions légales</domaine>
-    </personnalite>
-    <personnalite>
-        <nom>Jouin</nom>
-        <prenom>Lucas</prenom>
-        <domaine>Communication</domaine>
-    </personnalite>
-    <personnalite>
-        <nom>De La Llave</nom>
-        <prenom>Anthony</prenom>
-        <domaine>Développement</domaine>
-    </personnalite>
-    <personnalite>
-        <nom>Szalaï</nom>
-        <prenom>Istvan</prenom>
-        <domaine>Développement</domaine>
-    </personnalite>
-</liste>
+<comite>
+	<personnalite>
+		<domaine>Mentions légales</domaine>
+		<personne>
+			<nom>Schaal</nom>
+			<prenom>Olivia</prenom>
+		</personne>
+	</personnalite>
+	<personnalite>
+		<domaine>Communication</domaine>
+		<personne>
+			<nom>Jouin</nom>
+			<prenom>Lucas</prenom>
+		</personne>
+	</personnalite>
+		<personnalite>
+		<domaine>Comptabilité</domaine>
+		<personne>
+			<nom>Labalette</nom>
+			<prenom>Thomas</prenom>
+		</personne>
+	</personnalite>
+	<personnalite>
+		<domaine>Développement</domaine>
+		<personne>
+			<nom>De La Llave</nom>
+			<prenom>Anthony</prenom>
+		</personne>
+	</personnalite>
+	<personnalite>
+		<domaine>Développement</domaine>
+		<personne>
+			<nom>Szalaï</nom>
+			<prenom>Istvan</prenom>
+		</personne>
+	</personnalite>
+</comite>
