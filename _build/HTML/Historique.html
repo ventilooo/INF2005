@@ -7,10 +7,17 @@
 		<meta name="author" content="ventilooo">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../CSS/style.css"/>
-		<link rel="stylesheet" type="text/css" href="../jstree/dist/themes/default/style.min.css">
+		<link rel="stylesheet" type="text/css" href="../JS/dist/themes/default/style.min.css">
 		<script type="text/javascript" src="../JS/jquery-2.1.4.min.js"></script>
-		<script type="text/javascript" src="../jstree/dist/jstree.min.js"></script>
-		<script type="text/javascript" src="../JS/jstree.js"></script>
+		<script type="text/javascript" src="../JS/dist/jstree.js"></script>
+		<script>
+			$(function() {
+				$('#jstree').jstree();
+				$('#jstree').on("changed.jstree", function(e, data) {
+					console.log(data.selected);
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="ribbon">
@@ -54,7 +61,9 @@
 		<div class="conteneur">
 			<div class="bloc">
 				<p class="construction">
-					<div id="jstree"></div>
+					<div id="jstree_demo_div"></div>
+					  <button>demo button</button>
+
 				</p>
 			</div>
 		</div>
