@@ -1,9 +1,23 @@
 /**
  * @author adelallave
  */
-function addadmin () {
-	localStorage.setItem("admin", "INF2005");
+
+function validate() {
+	addadmin();
+	var username = document.login.name.value;
+	var pdw = document.login.pdw.value;
+	if (username  == localStorage.getItem('user') && pdw == localStorage.getItem('pdw')) {
+		alert('Connexion réussie');
+	}else{
+		alert('Information Invalide');
+	}
 }
+
+function addadmin () {
+	localStorage.setItem("user","admin");
+	localStorage.setItem("pdw","INF2005");
+}
+
 function addname() {
 	nom = document.getElementById("nomid").value;
 
@@ -40,4 +54,8 @@ function deleteall(){
 	  }
 	  localStorage.setItem("indexe",0);
 	  document.getElementById("liste").innerHTML="";
+}
+
+function adminSession() {
+	
 }
